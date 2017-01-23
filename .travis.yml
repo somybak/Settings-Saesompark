@@ -4,11 +4,11 @@
 
   android:
     components:
-    - platform-tools # ADB(디바이스 또는 에뮬레이터 통신)
-    - tools # 실제 안드로이드 SDK
-    - build-tools-25.0.1 # 빌드툴버전
+    - platform-tools
+    - tools
+    - build-tools-25.0.1
     - android-25
-    - extra-android-m2repository # 라이브러리를 갖고오기 위해
+    - extra-android-m2repository
 
   before_install:
     - chmod +x gradlew
