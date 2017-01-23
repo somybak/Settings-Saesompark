@@ -30,7 +30,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.button: //콜론!!
+            case R.id.button: //case는 콜론!!
                 tv.setText(BuildConfig.MyURL);
         }
     }
