@@ -25,7 +25,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("C:\\Users\\Somy\\AndroidStudioProjects\\Settings-Saesompark\\keystore\\keystore.jks")
+            storeFile file("../keystore/keystore.jks")
             storePassword "qwertpoiuy"
             keyAlias "testKey"
             keyPassword "qwertpoiuy"
